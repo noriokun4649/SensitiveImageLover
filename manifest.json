@@ -3,7 +3,7 @@
     "name": "Twitter用 センシティブ画像大好き君",
     "short_name": "SensitiveImageLover",
     "description": "Twitterでセンシティブ設定がされている画像を常に表示するようにします",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "icons": {
         "128": "icon.png"
     },
@@ -11,6 +11,10 @@
         {
           "matches": ["https://twitter.com/*"],
           "css": ["override.css"]
+        },
+        {
+          "matches": ["https://tweetdeck.twitter.com/*"],
+          "css": ["tweetdeck_override.css"]
         }
     ]
 }

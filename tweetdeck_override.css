@@ -1,0 +1,14 @@
+
+.media-preview-with-warning > .js-media-preview-container,
+.media-preview-with-warning > [class^='media-grid'] {
+  filter: blur(0px) !important;
+}
+
+.js-media.full-bleed-media-preview-with-warning > .js-media-preview-container > .js-media-image-link,
+.js-media.full-bleed-media-preview-with-warning > [class^='media-grid'] {
+  filter: blur(0px) !important;
+}
+
+.media-warning {
+  display: none !important;
+}

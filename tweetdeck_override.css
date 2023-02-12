@@ -12,3 +12,11 @@
 .media-warning {
   display: none !important;
 }
+
+/* Beta版用 TwitterWeb版のCSSで適用可能っぽい */
+.r-yfv4eo {
+  filter: blur(0px) !important;
+}
+.r-drfeu3 {
+  display: none !important;
+}
